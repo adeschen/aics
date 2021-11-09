@@ -1,8 +1,8 @@
 Package: aics
 Type: Package
-Title: Ancestry Inference from Cancer Sequencing 
+Title: Accurate Inference of Genetic Ancestry from Cancer Sequencing 
 Description: This package implements specialized algorithms that enable
-    ancestry inference from various cancer sequencing sources (RNA, 
+    genetic ancestry inference from various cancer sequencing sources (RNA, 
     Exome and Whole-Genome sequencing). 
 Version: 0.99.0
 Date: 2021-11-01
@@ -11,7 +11,7 @@ Authors@R: c(person("Pascal", "Belleau", email="pascal_belleau@hotmail.com",
     person("Astrid", "Deschênes", email="adeschen@hotmail.com",
     role=c("aut"), comment = c(ORCID = "0000-0001-7846-6749")),
     person("Alexander", "Krasnitz", email="krasnitz@cshl.edu",
-    role=c("aut")),
+    role=c("aut")))
 License: TODO
 Encoding: UTF-8
 NeedsCompilation: no
