@@ -1,0 +1,95 @@
+---
+title: "Accurate inference of genetic ancestry from cancer-derived sequencing"
+author: Pascal Belleau, Astrid Deschênes and Alexander Krasnitz
+output:
+  rmarkdown::html_document:
+    highlight: pygments
+    toc: true
+    fig_width: 5
+    number_sections: true
+pkgdown:
+  asis: true
+bibliography: aics.bibtex
+vignette: >
+  %\VignetteIndexEntry{Accurate inference of genetic ancestry from cancer-derived sequencing}
+  %\VignettePackage{aics}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r style, echo = FALSE, results = 'asis', warning=FALSE, message=FALSE}
+BiocStyle::markdown()
+
+suppressPackageStartupMessages({
+  library(knitr)
+  library(aics)
+})
+
+set.seed(121444)
+```
+
+# Licensing 
+
+TODO
+
+<br>
+<br>
+
+# Citing
+
+If you use this package for a publication, we would ask you 
+to cite the following:
+
+TODO
+
+# Installation
+
+To install the latest version accessible on the 
+[aics Github Website](https://github.com/adeschen/aics "aics Github Site"), 
+the `r CRANpkg("devtools")` package is required.
+
+```{r installDemo01, eval=FALSE}
+## Load required package
+library(devtools)
+
+## Install the latest version of aics
+devtools::install_github('adeschen/aics')
+```
+
+It is also possible to install an official release. The list of available 
+releases is posted on the [aics Release Website](https://github.com/adeschen/aics/releases "aics Release Site").
+
+
+```{r installDemo02, eval=FALSE}
+## Load required package
+library(devtools)
+
+## Install the version v0.1.4 of aics
+## using 'ref' parameter
+devtools::install_github('adeschen/aics', ref = "v0.1.4")
+```
+
+<br>
+<br>
+
+# Introduction
+
+Recent large-scale genomic studies of cancer point to differences 
+in the molecular make-up of the disease among groups of different ancestral 
+background. So, there is need for more molecular data to power discovery of 
+such differences. 
+
+<br>
+<br>
+
+# Session info
+
+Here is the output of `sessionInfo()` on the system on which this document was 
+compiled:
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
+
+<br>
+<br>
