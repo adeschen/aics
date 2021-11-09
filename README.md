@@ -21,4 +21,9 @@ package is required.
      devtools::install_github('adeschen/aics')
 
 
+## Bugs/Feature requests ##
 
+If you have any bugs or feature requests, 
+[let us know](https://github.com/adeschen/aics/issues). 
+
+Thanks!
