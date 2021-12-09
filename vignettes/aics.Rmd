@@ -74,13 +74,43 @@ devtools::install_github('adeschen/aics', ref = "v0.1.4")
 
 # Introduction
 
-Recent large-scale genomic studies of cancer point to differences 
-in the molecular make-up of the disease among groups of different ancestral 
-background. So, there is need for more molecular data to power discovery of 
-such differences. 
+
+Epidemiological evidence point to race and/or ethnicity as 
+important determinants of incidence and outcome in multiple 
+types of cancer [@Cronin2018; @Siegel2020].
+Ancestry annotation of cancer data often draws from 
+patient’s self-identified race and/or ethnicity (SIRE). 
+Yet, SIRE information is frequently missing or incomplete [@Nugent2019]. 
+Moreover, SIRE information is not always consistent with genetic ancestry.
+
+Accurate ancestral characterization can also be obtained by genotyping a 
+patient's DNA from a cancer-free tissue. 
+Multiple methods have been implemented to infer ancestry from germline DNA 
+sequence [@Price2006; @Pritchard2000; @Alexander2009]. However, genotyping of 
+DNA from matched normal specimens is not part of standard clinical practice
+and is not performed routinely outside academic clinical centers. 
+In sum, matched germline DNA sequence is often missing for cancer-derived 
+molecular data. 
+In such cases, having the possibility to infer ancestry 
+from tumor-derived data would be beneficial. 
+However, accurate inference of ancestry is challenging for tumor-derived 
+sequence.
+Tumor genome are frequently filled with somatic alterations sush as 
+single nucleotide variants (SNV), copy number variants, translocations and microsatellite instabilities. 
+
+The **aics** package implements an inference procedure that has been
+specifically developed to accurately infer genetic ancestry from 
+cancer-derived sequencing. The covered cancer-derived sequencing are, more 
+specifically, tumor exomes, targeted gene panels and RNA sequences.
+
+
+The **aics** package also implements simulation technique that generates
+synthetic cancer-derived data. Synthetic cancer-derived data can be used to 
+assess the performance of cancer related inference tools.
 
 <br>
 <br>
+
 
 # Session info
 
@@ -93,3 +123,6 @@ sessionInfo()
 
 <br>
 <br>
+
+
+# References
