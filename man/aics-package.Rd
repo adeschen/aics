@@ -11,6 +11,10 @@ The aics package implements specialized algorithms that enable
 ancestry inference from various cancer sequencing sources (RNA,
 Exome and Whole-Genome sequencing).
 }
+\details{
+The aics package also implements simulation algorithm that generates
+synthetic cancer-derived data.
+}
 \seealso{
 \itemize{
     \item \code{\link{TODO}} {for TODO}

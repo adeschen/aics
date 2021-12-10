@@ -4,6 +4,9 @@
 #' ancestry inference from various cancer sequencing sources (RNA,
 #' Exome and Whole-Genome sequencing).
 #'
+#' The aics package also implements simulation algorithm that generates
+#' synthetic cancer-derived data.
+#'
 #' @docType package
 #'
 #' @name aics-package
