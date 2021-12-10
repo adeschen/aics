@@ -3,7 +3,8 @@ Type: Package
 Title: Accurate Inference of Genetic Ancestry from Cancer Sequencing 
 Description: This package implements specialized algorithms that enable
     genetic ancestry inference from various cancer sequencing sources (RNA, 
-    Exome and Whole-Genome sequencing). 
+    Exome and Whole-Genome sequencing). This package also implements a
+    simulation algorithm that generates synthetic cancer-derived data.
 Version: 0.99.0
 Date: 2021-11-01
 Authors@R: c(person("Pascal", "Belleau", email="pascal_belleau@hotmail.com",
